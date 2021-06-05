@@ -7,11 +7,9 @@ import fakeWeatherData from "./fakeWeatherData.json";
 import "./App.css";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "Karim"
-    };
+  
+  state ={
+    name:'ali rahhal'
   }
 
   handleInputChange = value => {
@@ -22,7 +20,7 @@ class App extends Component {
     return (
       <div className="app">
         <SayHi />
-        <SayHello color="black" name={this.state.name} />
+        <SayHello color="purple" name={this.state.name} />
         <Search handleInput={this.handleInputChange} />
       </div>
     );
