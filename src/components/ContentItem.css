@@ -1,0 +1,38 @@
+.app__main-2{
+    width: 80%;
+    margin:0 auto;
+  }
+  .pic{
+    width: 10%;
+  }
+  .app__main-1-1-1{
+    font-size: 20px;
+    padding-bottom: 3%;
+  }
+  .app__main-1-1-1 span{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .para{
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5%;
+  }
+  .para p{
+    padding-right: 0.7%; 
+  }
+  .para span{
+    font-weight: bold;
+  }
+  .app__main-2{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding-top: 5%;
+  }
+  .app__main-2 p{
+    padding-top:10%;
+    padding-bottom: 20%;
+  } 
+  
