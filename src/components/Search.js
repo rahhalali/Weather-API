@@ -1,10 +1,12 @@
 import React from "react";
 import "./Search.css";
-const Search =()=> {
+const Search =(props)=> {
     return (
       <div className="app__header">
-      <input type="Text" placeholder="Type a country name"></input> 
+      <form onSubmit={props.getWeather}>
+      <input type="Text" name="city" placeholder="Type a country name"></input> 
       <button className="btn">FIND WEATHER</button>
+      </form>
      </div>
     );
   
