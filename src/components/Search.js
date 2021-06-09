@@ -1,13 +1,13 @@
 import React from "react";
-import "./Search.css";
+import {Header ,Input,Btn,Form} from "./Search1.js";
 const Search =(props)=> {
     return (
-      <div className="app__header">
-      <form onSubmit={props.getWeather}>
-      <input type="Text" name="city" placeholder="Type a country name"></input> 
-      <button className="btn">FIND WEATHER</button>
-      </form>
-     </div>
+      <Header className="form_head FORM">
+      <Form onSubmit={props.getWeather} autoComplete="off" >
+      <Input type="Text" name="city" placeholder="Type in a city name"></Input> 
+      <Btn>FIND WEATHER</Btn>
+      </Form>
+     </Header>
     );
   
 }

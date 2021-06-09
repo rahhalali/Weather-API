@@ -1,1 +1,20 @@
-
+body{
+ background-color: #9DCAF6;
+}
+html,body{
+    font-family: "Raleway";
+    height: auto;
+    margin:0;
+    overflow-x: hidden;
+    background-color: #9DCAF6;
+  }
+  .lon{
+    background-color: #9DCAF6;
+  }
+  .form_head{
+    transition: background-color 2s ease-in;
+  }
+  .pic{
+    width: 10%;
+  }
+  

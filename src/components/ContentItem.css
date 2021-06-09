@@ -1,35 +1,48 @@
+
 .app__main-2{
-    width: 80%;
-    margin:0 auto;
-  }
-  .pic{
-    width: 10%;
-  }
-  .app__main-1-1-1{
-    font-size: 20px;
-    padding-bottom: 3%;
-  }
+  width: 80%;
+  margin:0 auto;
+}
+
+.app__main-1-1-1{
+  font-size: 20px;
+  padding-bottom: 3%;
+}
+.para{
+  display: flex;
+  justify-content: center;
+  margin-left: 0.5%;
+}
   
-  
-  .para{
-    display: flex;
-    justify-content: center;
-    margin-left: 0.5%;
-  }
-  .para p{
-    padding-right: 0.7%; 
-  }
-  .para span{
-    font-weight: bold;
-  }
-  .app__main-2{
-    display: flex;
-    justify-content: space-around;
-    justify-items: center;
-    padding-top: 5%;
-  }
+.para p{
+  padding-right: 0.7%; 
+}
+
+.para span{
+  font-weight: bold;
+}
+ .app__main-2{
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  padding-top: 1%;
+ }
   .app__main-2 p{
-    padding-top:10%;
+    padding-top:1%;
     padding-bottom: 20%;
-  } 
+  }
+ 
+  @media screen and (max-width:600px) {
+    .app__main-2{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .app_main-2-1{
+    width: 40%;
+  }
+}
+ 
+  
+ 
   
